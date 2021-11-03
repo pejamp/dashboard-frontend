@@ -1,0 +1,91 @@
+.overlay {
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background: #fff;
+  width: 100%;
+  max-width: 440px;
+  padding: 12px 1rem 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.16);
+  text-align: center;
+  position: relative;
+
+  .xButton {
+    display: flex;
+    justify-content: flex-end;
+
+    button {
+      background: transparent;
+      border: none;
+      font-size: 1rem;
+      color: var(--light-gray);
+
+      transition: filter 0.2s;
+
+      &:hover {
+        filter: brightness(0.8);
+      }
+    }
+  }
+
+  header {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+  }
+
+  p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 1.5rem;
+  }
+
+  .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+
+    button {
+      width: 190px;
+      height: 34px;
+
+      border: none;
+      border-radius: 3px;
+      background: var(--blue);
+      color: #fff;
+      font-size: 1rem;
+
+      transition: filter 0.2s;
+
+      &:hover {
+        filter: brightness(0.9);
+      }
+    }
+
+    .cancel {
+      background: transparent;
+      border: 1px solid var(--red);
+      color: var(--red);
+
+      transition: 0.2s;
+
+      &:hover {
+        background: var(--red);
+        color: #fff;
+      }
+    }
+  }
+}

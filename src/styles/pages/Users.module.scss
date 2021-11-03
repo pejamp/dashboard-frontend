@@ -1,0 +1,100 @@
+.container {
+  display: flex;
+  width: 100%;
+
+  & > div {
+    width: 100%;
+    padding-top: 1.5rem;
+    padding-right: 3rem;
+
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 1.5rem;
+
+      a {
+        padding: 0.5rem 1rem;
+        background: var(--blue);
+        color: #fff;
+        border-radius: 3px;
+        cursor: pointer;
+
+        transition: filter 0.2s;
+
+        &:hover {
+          filter: brightness(0.9);
+        }
+      }
+    }
+
+    .tableContainer {
+      background: #fff;
+      border-radius: 0.5rem;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.111);
+      padding: 12px 20px;
+    }
+
+    .table {
+      width: 100%;
+
+      tr {
+        text-align: center;
+      }
+
+      th {
+        font-size: 12px;
+        font-weight: 400;
+        padding-bottom: 14px;
+      }
+
+      td {
+        font-size: 14px;
+      }
+
+      tbody {
+        td {
+          padding: 20px 0;
+        }
+      }
+
+      .nameRole {
+        text-align: start;
+
+        .name {
+          font-weight: 500;
+        }
+      }
+
+      .status {
+        font-size: 12px;
+
+        span {
+          background: var(--light-gray);
+          padding: 4px 1rem;
+          border-radius: 50px;
+        }
+
+        .greenBadge {
+          background: var(--green);
+          color: #fff;
+        }
+
+        .redBadge {
+          background: var(--red);
+          color: #fff;
+        }
+      }
+
+      .icons {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        button {
+          border: none;
+        }
+      }
+    }
+  }
+}

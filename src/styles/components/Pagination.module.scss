@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid var(--background);
+  padding-top: 12px;
+  font-size: 12px;
+
+  .pageButtons {
+    border-radius: 3px;
+    overflow: hidden;
+
+    button:first-child {
+      transform: rotate(180deg);
+    }
+  }
+
+  button {
+    width: 1.5rem;
+    height: 1.5rem;
+    color: var(--dark-gray);
+    font-weight: 400;
+    background: transparent;
+    border: 1px solid var(--light-gray);
+    transition: filter 0.2s;
+
+    &:hover {
+      filter: brightness(0.9);
+    }
+
+    &.disabled {
+      color: var(--blue);
+      border: 1px solid var(--blue);
+    }
+  }
+}

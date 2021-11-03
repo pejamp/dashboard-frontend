@@ -1,0 +1,78 @@
+.container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+
+  & > div {
+    width: 100%;
+    padding-top: 1.5rem;
+    padding-right: 3rem;
+  }
+}
+
+.dashboardProfile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.111);
+  overflow: hidden;
+
+  .background {
+    width: 100%;
+    height: 8rem;
+    background-image: url("../../assets/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-40%);
+    max-height: 7.75rem;
+
+    img {
+      width: 110px;
+      height: 110px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 6px solid #fff;
+    }
+
+    & > p:last-child {
+      font-size: 20px;
+      font-weight: 700;
+    }
+  }
+}
+
+.dashboardTables {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-top: 3rem;
+
+  & > div {
+    background: transparent;
+
+    p {
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+
+    .table {
+      background: #fff;
+      border-radius: 0.5rem;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.111);
+      padding: 1rem 1.5rem;
+      text-align: center;
+    }
+  }
+}

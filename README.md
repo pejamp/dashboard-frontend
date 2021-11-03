@@ -1,46 +1,72 @@
-# Getting Started with Create React App
+<h1 align="center">
+    <br>
+    <img src="./src/assets/logo.svg" width="260px" alt="logo wee.admin">
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+    <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/pejamp/dashboard-frontend?color=%23e559f9&style=for-the-badge&labelColor=4285f4">
+    <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/pejamp/dashboard-frontend?color=%23e559f9&style=for-the-badge&labelColor=4285f4">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/pejamp/dashboard-frontend?color=%23e559f9&style=for-the-badge&labelColor=4285f4">
+    <img alt="GitHub" src="https://img.shields.io/github/license/pejamp/dashboard-frontend?color=%23e559f9&style=for-the-badge&labelColor=4285f4">
+</p>
 
-## Available Scripts
+<h1 align="center">
+    <img alt="wee.admin" src=".github/Capa.png" />
+</h1>
 
-In the project directory, you can run:
+## 🧪 Tecnologias
 
-### `yarn start`
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [React](https://reactjs.org)
+- [React Router](https://reactrouter.com/web/guides/quick-start)
+- [SCSS/SASS](https://sass-lang.com/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Axios](https://axios-http.com/docs/intro)
+- [MirageJS](https://miragejs.com/)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 🎥 Dashboard progress
 
-### `yarn test`
+![workingprogressdashboard](https://user-images.githubusercontent.com/53826489/140076863-1d10741d-e48c-4568-89f4-a6c7e6ca5e09.gif)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Como executar
 
-### `yarn build`
+Clone o projeto e acesse a pasta do mesmo.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+$ git clone https://github.com/pejamp/dashboard-frontend
+$ cd dashboard-frontend
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Para iniciá-lo, siga os passos abaixo:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+# Instalar as dependências
+$ yarn
 
-### `yarn eject`
+# Iniciar o projeto
+$ yarn start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+O app estará disponível no seu browser pelo endereço http://localhost:3000.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 💻 Projeto
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Este é um projeto desenvolvido com o intuito de concluir um desafio.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## 📝 License
 
-## Learn More
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## ✒️ Author
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<a href="https://github.com/pejamp">
+ <img style="border-radius: 50%" src="https://avatars.githubusercontent.com/u/53826489?s=460&u=834aa9912aaaa1464d4635cb9fa7767c64a6e9b3&v=4" width="100px;" alt="foto de perfil"/>
+ <br />
+ <sub><b>Pedro Rodrigues</b></sub></a> <a href="https://github.com/pejamp">🚀</a>
+ <br />
+
+👋🏽 Contact me!
+
+[![Linkedin Badge](https://img.shields.io/badge/-Pedro-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/pedro-j%C3%A2nio-rodrigues-abreu-3a3647176/)](https://www.linkedin.com/in/pedro-j%C3%A2nio-rodrigues-abreu-3a3647176/)
+[![Gmail Badge](https://img.shields.io/badge/-pedro.roguea@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:pedro.roguea@gmail.com)](mailto:pedro.roguea@gmail.com)
